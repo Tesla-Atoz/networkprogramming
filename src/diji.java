@@ -3,6 +3,7 @@ import java.util.*;
 public class diji{
     public int cost[][] = new int[10][10];
     public int distance[] = new int[10];
+
     void calc(int n , int s){
 
         int flag[] = new int[n+1];
@@ -29,10 +30,7 @@ public class diji{
                     this.distance[k] = this.distance[minpos] + this.cost[minpos][k];
                 }
             }
-
         }
-
-
     }
 
     public static void main(String [] args){
