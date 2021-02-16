@@ -53,4 +53,4 @@ public class crc2{
             System.out.println("The received code word contains errors.");
     }
 
-    }
+}
